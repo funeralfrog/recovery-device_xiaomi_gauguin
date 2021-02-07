@@ -64,6 +64,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_R11=1
         export OF_FLASHLIGHT_ENABLE=0
         export FOX_DELETE_AROMAFM=1
+		export FOX_DISABLE_APP_MANAGER=1
 	export OF_PATCH_AVB20=1
 
         #export FOX_ADVANCED_SECURITY=1
